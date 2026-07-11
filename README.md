@@ -17,7 +17,7 @@ Este proyecto consume una API REST desarrollada con **Django REST Framework** y 
 * Protección de rutas privadas.
 * Gestión automática de sesiones.
 
----
+
 
 ## 📊 Dashboard
 
