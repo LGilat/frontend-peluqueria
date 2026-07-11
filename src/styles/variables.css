@@ -1,0 +1,47 @@
+:root {
+  /* Paleta de Colores Elegante */
+  --primary-color: #2c3e50;       /* Azul oscuro/midnight */
+  --secondary-color: #e67e22;     /* Naranja terciario (toque cálido) */
+  --accent-color: #d4af37;        /* Dorado (elegante) */
+  
+  --bg-body: #f8f9fa;             /* Gris muy claro para fondo */
+  --bg-card: #ffffff;             /* Blanco para tarjetas */
+  --bg-sidebar: #2c3e50;          /* Sidebar oscuro */
+  
+  --text-primary: #2c3e50;        /* Texto oscuro */
+  --text-secondary: #7f8c8d;      /* Texto gris */
+  --text-light: #ecf0f1;          /* Texto claro para fondo oscuro */
+  
+  --border-color: #e0e0e0;
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+  
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-body);
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
