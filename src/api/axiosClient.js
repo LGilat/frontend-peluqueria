@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosClient = axios.create({
-  baseURL: '/api', // Se redirige al backend a través del proxy de Vite
+  baseURL:import.meta.env.VITE_API_URL; // Se redirige al backend a través del proxy de Vite
 });
 
 // Interceptor para añadir el token a las peticiones
